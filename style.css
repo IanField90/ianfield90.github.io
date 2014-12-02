@@ -69,7 +69,7 @@
 					width: 100%;
 				}
 			}
-			@media only screen and (max-width: 340px){
+			@media only screen and (max-width: 490px){
 				.middle-small{
 					width: 100%;
 				}
