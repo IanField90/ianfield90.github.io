@@ -14,16 +14,26 @@ body{
 	clear: both;
 }
 h1{
-	margin: 0 0 0 0;				
+	margin: 0 0 0 0;
 	font-size: 32px;
-	text-align: center;	
+	text-align: center;
 	font-weight: normal;
 }
 h2{
+	margin: 0 0 0 0;
+	font-size: 32px;
+	/*text-align: center;*/
+	font-weight: normal;
+}
+h3{
 	margin: 40px 0 5px 0;
 	font-size: 22px;
 	font-weight: bold;
+	color: #FFF;
+	background-color: #4629A2;
+	padding: 10px;
 }
+
 p{
 	line-height: 24px;
 	margin: 0 0 20px 0;
@@ -41,7 +51,7 @@ p{
 	width: 450px;
 	margin: 0 auto;
 }
-.flex-container{	
+.flex-container{
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
@@ -70,6 +80,24 @@ p{
 	width: 220px;
 	display: block;
 }
+img.phone-screen {
+	height: auto;
+	width:auto;
+	max-width:150px;
+	max-height:254px;
+	float: left;
+}
+
+p.description {
+	margin-top: 35px;
+	/*line-height: 254px;*/
+}
+
+h3 iframe{
+	float: right;
+	line-height: 27px;
+}
+
 @media only screen and (max-width: 1000px){
 	.middle{
 		width: 100%;
