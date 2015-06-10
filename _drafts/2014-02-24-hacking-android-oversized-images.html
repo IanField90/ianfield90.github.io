@@ -1,0 +1,14 @@
+---
+layout: post
+title: 'Hacking Android: Oversized Images'
+date: '2014-02-24T18:23:00.000Z'
+author: Ian Field
+tags:
+- Java
+- Android
+modified_time: '2014-02-24T18:23:00.012Z'
+blogger_id: tag:blogger.com,1999:blog-1951825423897052840.post-3801307061183845400
+blogger_orig_url: http://www.ian-field.co.uk/2014/02/hacking-android-oversized-images.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">Sometimes an impossible task is to decode your image, let alone one that is too large for your phone's hardware to render. Provided you get around that there is an enforced hardware-level limit on the dimensions of the bitmap that you intend to place into an ImageView. From API-level 11 (Honeycomb 3.0) this limit is enforced on hardware-type layers.<br /><br />So how do you overcome this? Firstly lets address why not to. Your application is permitted a limited amount of memory by the operating system, and with good reason, your application can continue to run in the background, until the operating system deems it necessary to be terminated. The more memory you take up with your application, the slower your phone, and also your application, will become.<br /><br />Secondly Android does not support two directional scroll views, which I'll save for a rant of its own. So there's an extremely high chance, if not 100% that a view that exceeds these dimensions is too large for your view port to display at any one time. It's also unlikely that something of this size is a single-direction image, meaning that you're also likely to need to create and maintain a multi-directional scroll view from scratch. Which your touch listeners will mess with your head hours on end.<br /><br />Realistically, to follow convention, recommendations and the like, you should implement something with the complexity of Google maps tiling views in order to achieve something like this, or ideally use a transparent-background WebView as it has all the functionality, I guess to achieve it on websites, but alas time does not allow, especially if you are combining and layering views around this image.<br /><br />WebViews are far more optimised for handling interactions such as this, and also account for zooming in and out of a view. Though, sadly this does not lend well to adjusting other views to maintain their location within the container, for example, a house floor-plan, with multiple language text-labels, which are interactive to show further information on click.</div>

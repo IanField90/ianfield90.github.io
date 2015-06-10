@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'Windows Phone 7: Saving data - Persistant storage'
+date: '2010-10-25T10:15:00.001+01:00'
+author: Ian Field
+tags:
+- Windows Phone 7
+- C#
+- Silverlight
+- WP7
+modified_time: '2010-10-25T11:09:01.710+01:00'
+blogger_id: tag:blogger.com,1999:blog-1951825423897052840.post-8500129043867037064
+blogger_orig_url: http://www.ian-field.co.uk/2010/10/windows-phone-7-saving-data-persistant.html
+---
+
+So now we have our application page data bound we can save the actual data using our application's store.<br /><br />Within our page's xaml.cs we'll have a save function that'll be called by clicking a save button. Function will contain:<br /><script src="http://pastie.org/1241206.js"></script><br /><br />So you can see here how we can easily save the data in our application's store.&nbsp;Retrieving this is a little trickier, however. My example will be cautious, perhaps overly so. Within the Application_Launching event we'll add this code, which looks for our saved data and retrieves it then binds it to our page.<br /><br /><script src="http://pastie.org/1241224.js"></script><br /><br />As you can see I frequently check that the data we're retrieving is what we're expecting. If the file doesn't exist we bind it to an fresh class to allow for saving. Provided that our data bindings are correct we can re-save/load with ease.

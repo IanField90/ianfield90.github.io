@@ -1,0 +1,12 @@
+---
+layout: post
+title: 'An Android Developer''s Toolkit: Stetho and Chrome Inspector'
+date: '2015-05-28T08:46:00.002+01:00'
+author: Ian Field
+tags: 
+modified_time: '2015-05-28T08:46:24.866+01:00'
+blogger_id: tag:blogger.com,1999:blog-1951825423897052840.post-3678342131112721943
+blogger_orig_url: http://www.ian-field.co.uk/2015/05/an-android-developers-toolkit-stetho.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">More recently applications have a few 'run-once' screens, which can help educate the user to some of the app features, or guide them through a more complicated process.&nbsp;<div><br /></div><div><div>One pro for using the emulator is that it is possible to retrieve a SQLite database that is used by the application.</div></div><div><br /></div><div><br class="Apple-interchange-newline" />Stetho essentially allows you to peak inside the current application's state. Be it what's stored in SharedPreferences, or a SQLite databse. But what's more it allows you to interact and alter the shared preferences, and query the database as it were live, but without the added hassle of attaching the debugger at a predetermined point, and manually writing surplus code, or executing and evaluating expressions. Sometimes you know the query that you want to write, but you don't want to have to relaunch the applications.</div><div><br /></div><div>Stetho, by Facebook, utilises Chrome's Inspector tool.</div><div><br /></div><div><br /></div><div>Chrome inspector requires just 1 line altered in your application's code in order to debug a WebView on a live device.</div><div><br /></div><div>Something to note: It appears to be possible to debug a WebView with or without this line on an emulator. It took me a bit of head scratching until I realised this!</div></div>
