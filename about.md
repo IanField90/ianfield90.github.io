@@ -6,7 +6,5 @@ permalink: /about/
 
 ![Ian Field](/assets/ian.png)
 
-Android and Ruby on Rails developer at [Conjure](conjure-url).
+Android and Ruby on Rails developer at [Conjure](http://www.conjure.co.uk).
 Blog posts are from University days to now.
-
-[conjure-url]: http://www.conjure.co.uk
