@@ -108,8 +108,13 @@
 
 .contact-list,
 .social-media-list {
-    list-style: none;
+    list-style: none;;
     margin-left: 0;
+}
+
+.social-media-list li {
+    float: left;
+    margin-left: 20px;
 }
 
 .footer-col-wrapper {

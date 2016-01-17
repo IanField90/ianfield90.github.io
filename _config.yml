@@ -3,11 +3,14 @@ title: Ian Field
 footer_title: Android and Ruby on Rails Developer
 # email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Code, Games, and Cooking
+  Code, Games, and Reading
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ianfield.com" # the base hostname & protocol for your site
 twitter_username: IanField90
 github_username:  IanField90
+google_plus_username: IanField90
+medium_username: IanField90
+linkedin_username: ianfield
 
 # Build settings
 markdown: kramdown
