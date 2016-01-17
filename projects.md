@@ -20,4 +20,4 @@ TeachReach was a final year project at University, which I intend to re-write an
 <hr class="post-split" />
 
 # [Cattle Body Conditioning Scoring](http://github.com/IanField90/CattleBodyConditioning)
-Coming soon[&trade;](http://wowwiki.wikia.com/wiki/Soon)
+Coming soon[&trade;](http://wowwiki.wikia.com/wiki/Soon){:target="_blank"}
