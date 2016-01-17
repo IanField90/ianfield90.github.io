@@ -20,6 +20,11 @@ layout: default
         	{{ post.content | strip_html | truncatewords: 40 }}
         {% endif %}
       </div>
+      <div class="post-tags">
+        {% if post.tags.size >= 1 %}
+          Tags: {{ post.tags | array_to_sentence_string }}
+        {% endif %}
+      </div>
       <hr class="post-split" />
     </li>
     {% endfor %}

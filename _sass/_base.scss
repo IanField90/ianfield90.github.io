@@ -212,3 +212,9 @@ hr.post-split {
   border-top: 1px solid $highlight-color;
   margin: 1.5em 0; padding: 0;
 }
+
+div.post-tags {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: lighten($text-color, 45%);
+}
