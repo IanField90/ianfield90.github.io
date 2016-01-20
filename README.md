@@ -6,6 +6,8 @@ Run the server `jekyll serve`
 
 Run the server with auto building `jekyll build --watch`
 
+Run the server with drafts: `jekyll serve -D`
+
 
 # Example post
 
