@@ -72,3 +72,7 @@ Here are a few of my favourite libraries for time saving.
 - [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) - Fantastic looking charts and graphs.
 
 - [Codepath](https://guides.codepath.com/android/Must-Have-Libraries) - Has a very long list of other libraries.
+
+# Video
+
+A decent amount of tips for Android Studio are available in the [Android Studio for Experts (Android Dev Summit 2015)](https://www.youtube.com/watch?v=Y2GC6P5hPeA) video
