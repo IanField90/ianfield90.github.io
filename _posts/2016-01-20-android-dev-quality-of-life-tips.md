@@ -15,7 +15,7 @@ First of all is IDE setup itself. [Configuring Android Studio](https://medium.co
 
 # Build time improvements
 
-At the sacrifice of linting you can improve your build times by setting it to the latest version of android you're supporting, each have their own type of improvements. I've not used this much yet, but I found the idea quite cool.
+At the sacrifice of linting you can improve your build times by setting it to the latest version of android you're supporting, each have their own type of improvements. I've not used this much yet, but I found the idea quite cool. *Edit: This is actually for Multidex builds*
 
 Within your `android` hash:
 {% highlight groovy %}
