@@ -1,0 +1,28 @@
+---
+layout: page
+title: Travel
+permalink: /travel/
+---
+<h3>Places I've been</h3>
+<div id="map" style="height: 450px; overflow: hidden;"></div>
+<script>
+
+  function initMap() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 1,
+      center: {lat: 0, lng: 0}
+    });
+    $.getJSON('/assets/travel_locations.json', function(data) {
+      for (var i = 0; i < data.length; i++) {
+        loc = data[i];
+        loc["map"] = map;
+        var marker = new google.maps.Marker(loc);
+      }
+    });
+  }
+  // TODO calculate center
+
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHMm-OqBuRbfrISmRLobLBcS_DzEVmTKg&callback=initMap">
+</script>

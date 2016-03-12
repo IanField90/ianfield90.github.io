@@ -1,0 +1,39 @@
+[
+  {
+    "position" : {
+      "lat" : 34.7726773,
+      "lng" : 32.3981424
+    },
+    "title" : "Paphos, Cyprus"
+  },
+  {
+    "position" : {
+      "lat" : 54.0072703,
+      "lng" : -1.5041236
+    },
+    "title" : "Knaresborough, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : 53.181452,
+      "lng" : -1.5524187
+    },
+    "title" : "Darwin Forest Country Park- Peak District, "
+  },
+
+  {
+    "position" : {
+      "lat" : -38.6486357,
+      "lng" : 176.0878609
+    },
+    "title" : "Huka Falls"
+  },
+  {
+    "position" : {
+      "lat" : 44.427963,
+      "lng" : -110.5906437
+    },
+    "title" : "Yellowstone National Park"
+  }
+
+]
