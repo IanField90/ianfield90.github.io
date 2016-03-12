@@ -12,12 +12,18 @@ permalink: /travel/
       zoom: 1,
       center: {lat: 0, lng: 0}
     });
+
     $.getJSON('/assets/travel_locations.json', function(data) {
+      var latlngbounds = new google.maps.LatLngBounds();
       for (var i = 0; i < data.length; i++) {
         loc = data[i];
         loc["map"] = map;
         var marker = new google.maps.Marker(loc);
+        var latlng = new google.maps.LatLng(loc["position"]);
+        latlngbounds.extend(latlng);
       }
+      map.setCenter(latlngbounds.getCenter());
+      map.fitBounds(latlngbounds)
     });
   }
   // TODO calculate center
