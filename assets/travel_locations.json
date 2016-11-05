@@ -1,0 +1,240 @@
+[
+  {
+    "position" : {
+      "lat" : 34.7726773,
+      "lng" : 32.3981424
+    },
+    "title" : "Paphos, Cyprus"
+  },
+  {
+    "position" : {
+      "lat" : 54.0072703,
+      "lng" : -1.5041236
+    },
+    "title" : "Knaresborough, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : 53.181452,
+      "lng" : -1.5524187
+    },
+    "title" : "Darwin Forest Country Park - Peak District"
+  },
+  {
+    "position" : {
+      "lat" : 56.1382504,
+      "lng" : 8.1905901
+    },
+    "title" : "Denmark"
+  },
+  {
+    "position" : {
+      "lat" : 49.4631558,
+      "lng" : -2.658152
+    },
+    "title" : "Guernsey"
+  },
+  {
+    "position" : {
+      "lat" : 51.2090078,
+      "lng" : -2.6652441
+    },
+    "title" : "Wells"
+  },
+  {
+    "position" : {
+      "lat" : 47.2302346,
+      "lng" : 11.402751
+    },
+    "title" : "Igls, Innsbruck, Austria"
+  },
+  {
+    "position" : {
+      "lat" : 47.2302346,
+      "lng" : 11.402751
+    },
+    "title" : "Minehead Butlins"
+  },
+  {
+    "position" : {
+      "lat" : 37.757815,
+      "lng" : -122.50764
+    },
+    "title" : "San Francisco, CA, United States"
+  },
+  {
+    "position" : {
+      "lat" : 43.7904321,
+      "lng" : -110.6839514
+    },
+    "title" : "Grand Teton National Park, Teton County, WY, United States"
+  },
+  {
+    "position" : {
+      "lat" : 44.427963,
+      "lng" : -110.5906437
+    },
+    "title" : "Yellowstone National Park"
+  },
+  {
+    "position" : {
+      "lat" : 48.7596163,
+      "lng" : -113.7892112
+    },
+    "title" : "Glacier National Park, West Glacier, MT, United States"
+  },
+  {
+    "position" : {
+      "lat" : 47.6149942,
+      "lng" : -122.4759891
+    },
+    "title" : "Seattle, WA, United States"
+  },
+  {
+    "position" : {
+      "lat" : 52.3904767,
+      "lng" : -9.8364967
+    },
+    "title" : "Ballyheigue, Ireland"
+  },
+  {
+    "position" : {
+      "lat" : 50.6269231,
+      "lng" : -2.5278642
+    },
+    "title" : "Weymouth, Dorset, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : 53.1488468,
+      "lng" : 0.2918703
+    },
+    "title" : "Skegness, Lincolnshire, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : 54.4608733,
+      "lng" : -3.0908141
+    },
+    "title" : "Lake District National Park, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : 46.9855565,
+      "lng" : 8.3118108
+    },
+    "title" : "Lake Lucerne, Switzerland"
+  },
+  {
+    "position" : {
+      "lat" : 50.0598058,
+      "lng" : 14.3255409
+    },
+    "title" : "Prague, Czech Republic"
+  },
+  {
+    "position" : {
+      "lat" : 32.6540843,
+      "lng" : -16.8527872
+    },
+    "title" : "Caniço, Madeira, Portugal"
+  },
+  {
+    "position" : {
+      "lat" : 37.2451934,
+      "lng" : -8.7565019
+    },
+    "title" : "Algarve, Portugal"
+  },
+  {
+    "position" : {
+      "lat" : 36.1069695,
+      "lng" : -112.1151859
+    },
+    "title" : "Grand Canyon National Park, Arizona, United States"
+  },
+  {
+    "position" : {
+      "lat" : 37.5930419,
+      "lng" : -112.1892782
+    },
+    "title" : "Bryce Canyon National Park, Garfield County, UT, United States"
+  },
+  {
+    "position" : {
+      "lat" : 37.2982064,
+      "lng" : -113.0284892
+    },
+    "title" : "Zion National Park, Washington County, UT, United States"
+  },
+  {
+    "position" : {
+      "lat" : 36.4863711,
+      "lng" : -118.5679403
+    },
+    "title" : "Sequoia National Park, Tulare County, CA, United States"
+  },
+  {
+    "position" : {
+      "lat" : 37.8651053,
+      "lng" : -119.5405181
+    },
+    "title" : "Yosemite National Park, Mariposa County, CA, United States"
+  },
+  {
+    "position" : {
+      "lat" : 36.1251958,
+      "lng" : -115.3150846
+    },
+    "title" : "Las Vegas, NV, United States"
+  },
+  {
+    "position" : {
+      "lat" : 11.2405928,
+      "lng" : -60.8216517
+    },
+    "title" : "Tobago"
+  },
+  {
+    "position" : {
+      "lat" : 52.2488486,
+      "lng" : 0.3893583
+    },
+    "title" : "Newmarket, Suffolk, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : 57.1943695,
+      "lng" : -3.8418945
+    },
+    "title" : "Aviemore, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : -38.6486357,
+      "lng" : 176.0878609
+    },
+    "title" : "Huka Falls"
+  },
+  {
+    "position" : {
+      "lat" : -38.6896718,
+      "lng" : 175.9749724
+    },
+    "title" : "Taupo, Waikato, New Zealand"
+  },
+  {
+    "position" : {
+      "lat" : 52.1107978,
+      "lng" : -3.0201196
+    },
+    "title" : "Herefordshire, United Kingdom"
+  },
+  {
+    "position" : {
+      "lat" : 41.9020651,
+      "lng" : 12.4252439
+    },
+    "title" : "Rome, Italy"
+  }
+]

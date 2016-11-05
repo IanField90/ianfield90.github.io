@@ -12,4 +12,10 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="post-tags">
+    {% if page.tags.size >= 1 %}
+      Tags: {{ page.tags | array_to_sentence_string }}
+    {% endif %}
+  </div>
+
 </article>
