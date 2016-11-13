@@ -236,5 +236,12 @@
       "lng" : 12.4252439
     },
     "title" : "Rome, Italy"
+  },
+  {
+    "position" : {
+      "lat" : 41.3947688,
+      "lng" : 2.078728
+    },
+    "title" : "Barcelona, Spain"
   }
 ]
