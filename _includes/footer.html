@@ -2,41 +2,14 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.footer_title }}</li>
-          <p>{{ site.description }}</p>
-          {% if site.email %}
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          {% endif %}
-        </ul>
-      </div>
 
       <div class="footer-col">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
-              <span class="username">Github</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="username">Twitter</span>
-            </a>
-          </li>
-          {% endif %}
-
-          {% if site.google_plus_username %}
-          <li>
-            <a href="https://plus.google.com/+{{ site.google_plus_username }}">
-              <span class="username">Google+</span>
+              <span class="username">github</span>
             </a>
           </li>
           {% endif %}
@@ -44,7 +17,7 @@
           {% if site.medium_username %}
           <li>
             <a href="https://medium.com/@{{ site.medium_username }}">
-              <span class="username">Medium</span>
+              <span class="username">medium</span>
             </a>
           </li>
           {% endif %}
@@ -52,16 +25,13 @@
           {% if site.linkedin_username %}
           <li>
             <a href="https://uk.linkedin.com/in/{{ site.linkedin_username }}">
-              <span class="username">Linkedin</span>
+              <span class="username">linkedin</span>
             </a>
           </li>
           {% endif %}
         </ul>
       </div>
 
-      <!-- <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div> -->
     </div>
 
   </div>

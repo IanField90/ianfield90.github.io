@@ -243,5 +243,12 @@
       "lng" : 2.078728
     },
     "title" : "Barcelona, Spain"
+  },
+  {
+    "position" : {
+      "lat" : 54.644683,
+      "lng" : -2.799149
+    },
+    "title" : "Lake District, Cumbria"
   }
 ]

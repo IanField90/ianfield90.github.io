@@ -108,7 +108,6 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
@@ -217,7 +216,7 @@ hr.post-split {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid $highlight-color;
+  border-top: 1px solid #f4f6f7;
   margin: 1.5em 0; padding: 0;
 }
 
@@ -225,4 +224,31 @@ div.post-tags {
   margin-top: 10px;
   font-size: 0.9em;
   color: lighten($text-color, 45%);
+}
+
+a.page-link {
+  font-weight: 300;
+}
+
+a.site-title {
+  font-weight: 300;
+}
+
+span.date {
+  color: lighten($grey-color, 20%);
+  font-size: $small-font-size;
+}
+
+span.page-number {
+  color: lighten($grey-color, 20%);
+  font-size: $small-font-size;
+}
+
+span.username {
+  letter-spacing: 1px;
+}
+
+.next, .previous {
+  font-weight: 800;
+  margin: 0 5px;
 }
