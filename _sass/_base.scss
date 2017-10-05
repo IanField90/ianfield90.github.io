@@ -234,6 +234,10 @@ a.page-link {
   font-weight: 300;
 }
 
+a.page-link:hover {
+  box-shadow: inset 0 -6px 0 lighten($accent-color, 40%);
+}
+
 a.site-title {
   font-weight: 300;
 }
