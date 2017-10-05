@@ -15,8 +15,7 @@ After 5 months without a break from work my parents offered me a room in a cotta
 
 In classic last minute packing I filled my Brother's hand-me-down duffle bag with clothes for all eventualities. Far be it from me to determine whether or not I'd need shorts and flip-flops or full waterproofs. The weather up there is a little delayed as the seasons move at walking pace northwards. I woke up in good time for the early pick-up to avoid the traffic. My parents, having always struggled with navigating in the car to where I live, hadn't quite managed to pull up on my road, but rather at the end. A short walk later I was in the car feeling rather fresh with the early morning chill.
 
-We made good time travelling up to the first stop.
-
+We made good time travelling up to the first stop at Warrick service. I was definitely ready for some breakfast.
 
 Warrick and Lancaster services
 406 miles
