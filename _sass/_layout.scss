@@ -240,11 +240,23 @@ ul.post-list h1 {
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
+    a {
+      text-decoration: underline;
+    }
 
+    h1 {
+        font-size: 32px;
         @include media-query($on-laptop) {
             font-size: 28px;
+        }
+        color: $grey-color
+    }
+
+    h2 {
+        font-size: 28px;
+
+        @include media-query($on-laptop) {
+            font-size: 26px;
         }
     }
 
