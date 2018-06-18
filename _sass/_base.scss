@@ -251,12 +251,12 @@ a:hover + hr.post-split {
 }
 
 span.date {
-  color: lighten($grey-color, 20%);
+  color: darken($grey-color, 16%);
   font-size: $small-font-size;
 }
 
 span.page-number {
-  color: lighten($grey-color, 20%);
+  color: darken($grey-color, 16%);
   font-size: $small-font-size;
 }
 

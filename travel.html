@@ -95,20 +95,28 @@ permalink: /travel/
     ]
     });
 
-    $.getJSON('/assets/travel_locations.json', function(data) {
-      var latlngbounds = new google.maps.LatLngBounds();
-      for (var i = 0; i < data.length; i++) {
-        loc = data[i];
-        loc["map"] = map;
-        var image = new google.maps.MarkerImage("/assets/pin@2x.png", null, null, null, new google.maps.Size(30,30));
-        loc["icon"] = image;
-        var marker = new google.maps.Marker(loc);
-        var latlng = new google.maps.LatLng(loc["position"]);
-        latlngbounds.extend(latlng);
-      }
-      map.setCenter(latlngbounds.getCenter());
-      map.fitBounds(latlngbounds)
-    });
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', '/assets/travel_locations.json');
+    xhr.onload = function() {
+        if (xhr.status === 200) {
+          var data = JSON.parse(xhr.responseText)
+          var latlngbounds = new google.maps.LatLngBounds();
+          for (var i = 0; i < data.length; i++) {
+            loc = data[i];
+            loc["map"] = map;
+            var image = new google.maps.MarkerImage("/assets/pin@2x.png", null, null, null, new google.maps.Size(30,30));
+            loc["icon"] = image;
+            var marker = new google.maps.Marker(loc);
+            var latlng = new google.maps.LatLng(loc["position"]);
+            latlngbounds.extend(latlng);
+          }
+          map.setCenter(latlngbounds.getCenter());
+          map.fitBounds(latlngbounds)
+        } else {
+          alert('Request failed.  Returned status of ' + xhr.status);
+        }
+    };
+    xhr.send();
   }
 
 </script>
