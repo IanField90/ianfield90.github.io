@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is enough?
+subtitle: Finding out when 'That'll do'
 date: '2018-02-06T:20:00:00.000Z'
 author: Ian Field
 tags:
@@ -10,14 +11,12 @@ tags:
 - Compassion
 - Stress
 ---
-# Finding out when 'That'll do'
-
-#### Need
+### Need
 When being continually challenged I have a tendency to over-focus on things, big or small, worming themselves into every waking thought. I regularly try to draw comparison to others, set myself unrealistic standards & goals, and apply unreasonable self-pressure. A lot of this has to do with a constant feeling that I need to prove myself. That pesky imposter syndrome never quite seems to stop. But it’s not just to others, it’s also to me feeling that I need to challenge myself, succeed, stretch and keep progressing. There’s that word again, need, defined as ‘Require because it is essential or very important rather than just desirable’. That’s a strong thing to be saying to myself. ‘Would like to’ is much more apt, it’s also less committal and less catastrophic if it doesn’t happen. Lately the feeling that things have been a ‘need’ has been challenging, depressing, and ultimately exhausting. Snapping at friends and family, being irritable and unfair.
 
 At times it feels that the reason for this mindset is ambition. But I question how that can be the reason when I’m not sure what I’m striving for. After attending talks given by other professionals I feel I’ve been more able to put my finger on what drives this, and that’s Fear. Fear of feeling ashamed, fear of failure, fear of other people’s perception of myself.
 
-#### Shame
+### Shame
 In a society that focuses so much on work and performance it’s easy to be swept along and lose ourselves. Is who I am today who I want to be, or who society wants me to be? Only by reflecting on this can we see whether we’re losing who we are; our own authenticity.
 
 > “Authenticity is the sharing of self by relating in a natural, sincere, spontaneous, open and genuine manner.” — Dean H. Hepworth, Ronald H. Rooney and Jane Lawson
@@ -28,12 +27,12 @@ We find ourselves surrounded by people on a daily basis. These people all differ
 
 It’s these people that our inner critic can listen to. These people have the qualities to earn your respect, which is a self-admission that we value their feedback above others. Despite knowing this the mind works in ways to prove to others, whom we do not respect, that we can do better. But then it’s a fight to fit in, rather than to belong.
 
-#### Support
+### Support
 Being social creatures, and given the tendency to be overly self-critical we rely a lot on others to gain another perspective on situations and life. It’s nice to know you’re not alone. Even if it feels like it a lot of the time. It’s the people that we turn to in times of suffering and pain they can make a difference. A good friend can try to comfort and listen to troubles. A bad one wouldn’t listen, or answer.
 
 Being true to yourself is a tough thing to come to terms with. When we concern ourselves with how other people see us it’s difficult for us to see how we’re actually seen by others. There’s no need to put your effort in improving your appearance for an asshole. You won’t impress them, and even if you do the benefits will be short-lived. Before your efforts are discarded once again.
 
-#### Empathy
+### Empathy
 Taking to others, and most importantly, listening, lead us to develop what, personally, is the most valuable asset to have. Empathy. Once we’re able to feel empathy towards another person we have a shot at feeling it for ourselves.
 
 Theresa Wiseman described Empathy as having multiple components:

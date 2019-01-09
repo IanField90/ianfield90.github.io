@@ -220,15 +220,25 @@
 
 .post-title {
     font-size: 42px;
-    line-height: 63px;
+    line-height: 58px;
     letter-spacing: 1px;
     word-spacing: 3px;
-
     color: $brand-color;
-
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-subtitle {
+  font-size: 24px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: lighten($brand-color, 25%);
+  margin-bottom: 0px !important;
+
+  @include media-query($on-laptop) {
+      font-size: 22px;
+  }
 }
 
 ul.post-list h1 {
@@ -244,26 +254,27 @@ ul.post-list h1 {
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 26px;
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: 24px;
         }
         color: $grey-color
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 24px;
 
         @include media-query($on-laptop) {
-            font-size: 26px;
+            font-size: 22px;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 20px;
+        color: darken($accent-color, 5%);
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: 18px;
         }
     }
 

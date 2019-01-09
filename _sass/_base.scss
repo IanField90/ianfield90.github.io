@@ -238,12 +238,24 @@ a.page-link {
   }
 }
 
+a.post-subtitle {
+  &:hover {
+    color: lighten($accent-color, 10%);
+  }
+}
+
 a.site-title {
   font-weight: 300;
 }
 
+
+
 a:hover span.date {
   color: lighten($accent-color, 20%);
+}
+
+a:hover h2.post-subtitle {
+  color: lighten($accent-color, 25%);
 }
 
 a:hover + hr.post-split {
