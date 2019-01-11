@@ -250,5 +250,19 @@
       "lng" : -2.799149
     },
     "title" : "Lake District, Cumbria"
+  },
+  {
+    "position" : {
+      "lat" : -43.880057,
+      "lng" : 170.008115
+    },
+    "title" : "New Zealand, South Island"
+  },
+  {
+    "position" : {
+      "lat" : 35.3325631,
+      "lng" : 25.0769338
+    },
+    "title" : "Gazi, Crete, Greece"
   }
 ]
