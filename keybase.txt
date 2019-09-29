@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ianfield90
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ianfield.com
+  * I am ianfield90 (https://keybase.io/ianfield90) on keybase.
+  * I have a public key ASCxauT5cVUq8rRvNjE3xAecc_y-oi0sHX-bk93hGo4RfQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b16ae4f971552af2b46f363137c4079c73fcbea22d2c1d7f9b93dde11a8e117d0a",
+      "host": "keybase.io",
+      "kid": "0120b16ae4f971552af2b46f363137c4079c73fcbea22d2c1d7f9b93dde11a8e117d0a",
+      "uid": "d34fb24a435b1032664bc3911e67be00",
+      "username": "ianfield90"
+    },
+    "merkle_root": {
+      "ctime": 1569793214,
+      "hash": "b06d0a1cc182c309358524501b7185208950fa58f588244b2ddc1c337046aa839fdd26acc2a338e9384e902ba463c06f5d99ccd777b1694a60c855cea9ea32bb",
+      "hash_meta": "c24d6cf4574e33cc1f139aa672c7939409bba8db7e0211023c05f90102125542",
+      "seqno": 7801136
+    },
+    "service": {
+      "entropy": "ZYNkt4IcwCXHmoz9NKICxOW9",
+      "hostname": "ianfield.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.5.0"
+  },
+  "ctime": 1569793229,
+  "expire_in": 504576000,
+  "prev": "95bcafb99a0ea857e6ea19636f123f4ae29853d332fde308b4185741ba42dc67",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgsWrk+XFVKvK0bzYxN8QHnHP8vqItLB1/m5Pd4RqOEX0Kp3BheWxvYWTESpcCE8QglbyvuZoOqFfm6hljbxI/SuKYU9My/eMItBhXQbpC3GfEIC1fX5hRkT4crlKL9KXnCctfuQE6gYPyBrlR2eCENHz1AgHCo3NpZ8RA3yNbI577/UmW53+/askZcPyIWGS3O5K0tl0u4iUpnLzMzST2mO1c4cufOKqvM0vA8Y+MKo2PZomr9rh2pxDrD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOkwMZkzcwfspLB3rWSwabwTizJMwj0AVkIPt7PSuqKUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ianfield90
+
+==================================================================
