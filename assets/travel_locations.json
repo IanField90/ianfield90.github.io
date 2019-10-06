@@ -264,5 +264,19 @@
       "lng" : 25.0769338
     },
     "title" : "Gazi, Crete, Greece"
+  },
+  {
+    "position" : {
+      "lat" : 37.3784031,
+      "lng" : -5.9098755
+    },
+    "title" : "Seville, Spain"
+  },
+  {
+    "position" : {
+      "lat" : 43.390266,
+      "lng" : 0.8478291
+    },
+    "title" : "Toulouse, France"
   }
 ]
