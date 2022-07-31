@@ -4,245 +4,304 @@
       "lat" : 34.7726773,
       "lng" : 32.3981424
     },
-    "title" : "Paphos, Cyprus"
+    "title" : "Paphos, Cyprus",
+    "when": [1991, 1998, 2004]
   },
   {
     "position" : {
       "lat" : 54.0072703,
       "lng" : -1.5041236
     },
-    "title" : "Knaresborough, United Kingdom"
+    "title" : "Knaresborough, United Kingdom",
+    "when": [1992]
   },
   {
     "position" : {
       "lat" : 53.181452,
       "lng" : -1.5524187
     },
-    "title" : "Darwin Forest Country Park - Peak District"
+    "title" : "Darwin Forest Country Park - Peak District",
+    "when": [1993, 1994]
   },
   {
     "position" : {
       "lat" : 56.1382504,
       "lng" : 8.1905901
     },
-    "title" : "Denmark"
+    "title" : "Denmark",
+    "when": [1994]
   },
   {
     "position" : {
       "lat" : 49.4631558,
       "lng" : -2.658152
     },
-    "title" : "Guernsey"
+    "title" : "Guernsey",
+    "when": [1995]
   },
   {
     "position" : {
       "lat" : 51.2090078,
       "lng" : -2.6652441
     },
-    "title" : "Wells"
+    "title" : "Wells",
+    "when": [1995]
   },
   {
     "position" : {
       "lat" : 47.2302346,
       "lng" : 11.402751
     },
-    "title" : "Igls, Innsbruck, Austria"
+    "title" : "Igls, Innsbruck, Austria",
+    "when": [1995]
+  },
+  {
+    "position" : {
+      "lat" : 55.9772932, 
+      "lng" : -4.9271596
+    },
+    "title" : "Dunoon, Scotland",
+    "when": [1995]
   },
   {
     "position" : {
       "lat" : 47.2302346,
       "lng" : 11.402751
     },
-    "title" : "Minehead Butlins"
+    "title" : "Minehead Butlins",
+    "when": [1996, 1998]
   },
   {
     "position" : {
       "lat" : 37.757815,
       "lng" : -122.50764
     },
-    "title" : "San Francisco, CA, United States"
+    "title" : "San Francisco, CA, United States",
+    "when": [1996]
   },
   {
     "position" : {
       "lat" : 43.7904321,
       "lng" : -110.6839514
     },
-    "title" : "Grand Teton National Park, Teton County, WY, United States"
+    "title" : "Grand Teton National Park, Teton County, WY, United States",
+    "when": [1996]
   },
   {
     "position" : {
       "lat" : 44.427963,
       "lng" : -110.5906437
     },
-    "title" : "Yellowstone National Park"
+    "title" : "Yellowstone National Park",
+    "when": [1996]
   },
   {
     "position" : {
       "lat" : 48.7596163,
       "lng" : -113.7892112
     },
-    "title" : "Glacier National Park, West Glacier, MT, United States"
+    "title" : "Glacier National Park, West Glacier, MT, United States",
+    "when": [1996]
   },
   {
     "position" : {
       "lat" : 47.6149942,
       "lng" : -122.4759891
     },
-    "title" : "Seattle, WA, United States"
+    "title" : "Seattle, WA, United States",
+    "when": [1996]
   },
   {
     "position" : {
       "lat" : 52.3904767,
       "lng" : -9.8364967
     },
-    "title" : "Ballyheigue, Ireland"
+    "title" : "Ballyheigue, Ireland",
+    "when": [1999]
   },
   {
     "position" : {
       "lat" : 50.6269231,
       "lng" : -2.5278642
     },
-    "title" : "Weymouth, Dorset, United Kingdom"
+    "title" : "Weymouth, Dorset, United Kingdom",
+    "when": [1999]
   },
   {
     "position" : {
       "lat" : 53.1488468,
       "lng" : 0.2918703
     },
-    "title" : "Skegness, Lincolnshire, United Kingdom"
+    "title" : "Skegness, Lincolnshire, United Kingdom",
+    "when": [2000]
   },
   {
     "position" : {
       "lat" : 54.4608733,
       "lng" : -3.0908141
     },
-    "title" : "Lake District National Park, United Kingdom"
+    "title" : "Lake District National Park, United Kingdom",
+    "when": [2000]
   },
   {
     "position" : {
       "lat" : 46.9855565,
       "lng" : 8.3118108
     },
-    "title" : "Lake Lucerne, Switzerland"
+    "title" : "Lake Lucerne, Switzerland",
+    "when": [2001]
   },
   {
     "position" : {
       "lat" : 50.0598058,
       "lng" : 14.3255409
     },
-    "title" : "Prague, Czech Republic"
+    "title" : "Prague, Czech Republic",
+    "when": [2002]
   },
   {
     "position" : {
       "lat" : 32.6540843,
       "lng" : -16.8527872
     },
-    "title" : "Caniço, Madeira, Portugal"
+    "title" : "Caniço, Madeira, Portugal",
+    "when": [2002]
   },
   {
     "position" : {
       "lat" : 37.2451934,
       "lng" : -8.7565019
     },
-    "title" : "Algarve, Portugal"
+    "title" : "Algarve, Portugal",
+    "when": [2005]
+  },
+  {
+    "title": "Piazzale Folgarida - Ski",
+    "position": {
+      "lat": 46.2648347,
+      "lng": 6.9961332
+    },
+    "when": [2003]
+  },
+  {
+    "title": "Pendine Sands",
+    "position": {
+      "lat": 51.7252111,
+      "lng": -4.5387076
+    },
+    "when": [2005]
   },
   {
     "position" : {
       "lat" : 36.1069695,
       "lng" : -112.1151859
     },
-    "title" : "Grand Canyon National Park, Arizona, United States"
+    "title" : "Grand Canyon National Park, Arizona, United States",
+    "when": [2006]
   },
   {
     "position" : {
       "lat" : 37.5930419,
       "lng" : -112.1892782
     },
-    "title" : "Bryce Canyon National Park, Garfield County, UT, United States"
+    "title" : "Bryce Canyon National Park, Garfield County, UT, United States",
+    "when": [2006]
   },
   {
     "position" : {
       "lat" : 37.2982064,
       "lng" : -113.0284892
     },
-    "title" : "Zion National Park, Washington County, UT, United States"
+    "title" : "Zion National Park, Washington County, UT, United States",
+    "when": [2006]
   },
   {
     "position" : {
       "lat" : 36.4863711,
       "lng" : -118.5679403
     },
-    "title" : "Sequoia National Park, Tulare County, CA, United States"
+    "title" : "Sequoia National Park, Tulare County, CA, United States",
+    "when": [2006]
   },
   {
     "position" : {
       "lat" : 37.8651053,
       "lng" : -119.5405181
     },
-    "title" : "Yosemite National Park, Mariposa County, CA, United States"
+    "title" : "Yosemite National Park, Mariposa County, CA, United States",
+    "when": [2006]
   },
   {
     "position" : {
       "lat" : 36.1251958,
       "lng" : -115.3150846
     },
-    "title" : "Las Vegas, NV, United States"
+    "title" : "Las Vegas, NV, United States",
+    "when": [2006]
   },
   {
     "position" : {
       "lat" : 11.2405928,
       "lng" : -60.8216517
     },
-    "title" : "Tobago"
+    "title" : "Tobago",
+    "when": [2007]
   },
   {
     "position" : {
       "lat" : 52.2488486,
       "lng" : 0.3893583
     },
-    "title" : "Newmarket, Suffolk, United Kingdom"
+    "title" : "Newmarket, Suffolk, United Kingdom",
+    "when": [2009]
   },
   {
     "position" : {
       "lat" : 57.1943695,
       "lng" : -3.8418945
     },
-    "title" : "Aviemore, United Kingdom"
+    "title" : "Aviemore, United Kingdom",
+    "when": [2008]
   },
   {
     "position" : {
       "lat" : -38.6486357,
       "lng" : 176.0878609
     },
-    "title" : "Huka Falls"
+    "title" : "Huka Falls",
+    "when": [2011]
   },
   {
     "position" : {
       "lat" : -38.6896718,
       "lng" : 175.9749724
     },
-    "title" : "Taupo, Waikato, New Zealand"
+    "title" : "Taupo, Waikato, New Zealand x2",
+    "when": [2011]
   },
   {
     "position" : {
       "lat" : 52.1107978,
       "lng" : -3.0201196
     },
-    "title" : "Herefordshire, United Kingdom"
+    "title" : "Herefordshire, United Kingdom",
+    "when": [2012]
   },
   {
     "position" : {
       "lat" : 41.9020651,
       "lng" : 12.4252439
     },
-    "title" : "Rome, Italy"
+    "title" : "Rome, Italy",
+    "when": [2014]
   },
   {
     "position" : {
       "lat" : 41.3947688,
       "lng" : 2.078728
     },
-    "title" : "Barcelona, Spain"
+    "title" : "Barcelona, Spain",
+    "when": [2016]
   },
   {
     "position" : {
@@ -256,27 +315,39 @@
       "lat" : -43.880057,
       "lng" : 170.008115
     },
-    "title" : "New Zealand, South Island"
+    "title" : "New Zealand, South Island",
+    "when": [2018]
   },
   {
     "position" : {
       "lat" : 35.3325631,
       "lng" : 25.0769338
     },
-    "title" : "Gazi, Crete, Greece"
+    "title" : "Gazi, Crete, Greece",
+    "when": [2018]
   },
   {
     "position" : {
       "lat" : 37.3784031,
       "lng" : -5.9098755
     },
-    "title" : "Seville, Spain"
+    "title" : "Seville, Spain",
+    "when": [2019]
   },
   {
     "position" : {
       "lat" : 43.390266,
       "lng" : 0.8478291
     },
-    "title" : "Toulouse, France"
+    "title" : "Toulouse, France",
+    "when": [2019]
+  },
+  {
+    "position" : {
+      "lat" : -38.0514228,
+      "lng" : 175.6984473
+    },
+    "title" : "New Zealand",
+    "when": [2020]
   }
 ]
