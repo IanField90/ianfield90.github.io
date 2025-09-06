@@ -248,7 +248,9 @@ a.site-title {
   font-weight: 300;
 }
 
-
+a:hover h1.post-title {
+  text-decoration: underline;
+}
 
 a:hover span.date {
   color: lighten($accent-color, 20%);

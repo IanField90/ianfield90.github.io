@@ -349,5 +349,13 @@
     },
     "title" : "New Zealand",
     "when": [2020]
+  },
+  {
+    "position" : {
+      "lat" : -46.8981439,
+      "lng" : 168.1127824
+    },
+    "title" : "New Zealand (Southland camper trip)",
+    "when": [2024]
   }
 ]
