@@ -32,19 +32,19 @@ permalink: /travel/
 
 <h2>Trips</h2>
 
-<ul class="post-list">
+<div class="post-list">
 
   {% for post in site.posts %}
   {% if post.categories contains 'Travel' %}
-  <li>
+  <div>
     <a href="{{ post.url }}">
-    <h1>{{ post.title }}</h1>
-    <p class="author">
-      <span class="date" style="float:left;">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </p>
+      <h1>{{ post.title }}</h1>
+      <p class="date">
+        {{ post.date | date: "%b %-d, %Y" }}
+      </p>
     </a>
     <hr class="post-split" />
-  </li>
+  </div>
   {% endif %}
   {% endfor %}
-</ul>
+</div>

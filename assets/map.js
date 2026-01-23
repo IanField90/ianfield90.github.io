@@ -20,6 +20,7 @@ async function initMap() {
         pinImg.src = new URL('/assets/pin@2x.png', import.meta.url).href;
         pinImg.style.height = '30px';
         pinImg.style.width = '30px';
+        pinImg.alt = `${title} pin`;
         marker.append(pinImg);
         mapElement.append(marker);
         latlngbounds.extend(new google.maps.LatLng(position));

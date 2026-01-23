@@ -15,8 +15,6 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -217,7 +215,6 @@ pre {
 }
 
 hr.post-split {
-  display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid lighten($accent-color, 50%);
@@ -240,7 +237,7 @@ a.page-link {
 
 a.post-subtitle {
   &:hover {
-    color: lighten($accent-color, 10%);
+    color: $accent-color;
   }
 }
 
@@ -252,7 +249,7 @@ a:hover h1.post-title {
   text-decoration: underline;
 }
 
-a:hover span.date {
+a:hover p.date {
   color: lighten($accent-color, 20%);
 }
 
@@ -264,7 +261,7 @@ a:hover + hr.post-split {
   border-top: 1px solid lighten($accent-color, 20%);
 }
 
-span.date {
+p.date {
   color: darken($grey-color, 16%);
   font-size: $small-font-size;
 }
