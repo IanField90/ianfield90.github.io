@@ -24,7 +24,10 @@ profile: true
         <li><a href="{{ '/projects/' | relative_url }}">Personal projects</a></li>
       </ul>
     </div>
-    <img class="about-portrait" src="{{ page.image | relative_url }}" srcset="{{ page.image | relative_url }} 1x, {{ page.image_2x | relative_url }} 2x" alt="{{ page.image_alt | escape }}" width="220" height="220">
+    <picture>
+      <source type="image/webp" srcset="{{ '/assets/ian-portrait-160.webp' | relative_url }} 160w, {{ '/assets/ian-portrait-320.webp' | relative_url }} 320w" sizes="(max-width: 460px) 80px, (max-width: 480px) 96px, (max-width: 800px) 20vw, 160px">
+      <img class="about-portrait" src="{{ page.image | relative_url }}" srcset="{{ page.image | relative_url }} 1x, {{ page.image_2x | relative_url }} 2x" alt="{{ page.image_alt | escape }}" width="220" height="220">
+    </picture>
   </header>
 
   <section class="about-section" aria-labelledby="selected-work">
@@ -40,8 +43,8 @@ profile: true
         <p>I design and build APIs and event-driven services. In design reviews, I pay close attention to data contracts, edge cases and what happens when a dependency fails.</p>
       </div>
       <div class="about-card">
-        <h3>Production reliability</h3>
-        <p>I&rsquo;ve led incident response, improved database performance and coordinated framework upgrades across multiple services.</p>
+        <h3><a href="{{ '/work/platform-modernisation/' | relative_url }}">Platform modernisation</a></h3>
+        <p>I planned and carried out NestJS and TypeORM upgrades across more than a dozen services and shared libraries, then coordinated a wider Node.js upgrade. I owned the rollout and contributed to the follow-up release.</p>
       </div>
     </div>
   </section>
@@ -75,7 +78,7 @@ profile: true
 
   <section class="about-section" aria-labelledby="outside-work">
     <h2 id="outside-work">Outside work</h2>
-    <p>I enjoy bouldering, dancing Lindy Hop and listening to music. <em>Red Dead Redemption 2</em> is a favourite: Arthur Morgan&rsquo;s slow-burning story about loyalty and second chances has stuck with me.</p>
+    <p>I enjoy bouldering, dancing Lindy Hop, listening to music and playing video games. <em>Red Dead Redemption 2</em> is a favourite: Arthur Morgan&rsquo;s slow-burning story about loyalty and second chances has stuck with me.</p>
     <p>I like trying new recipes and seeing which ones earn a spot in my regular rotation. I also make time for gardening and mindfulness.</p>
   </section>
 </article>

@@ -20,11 +20,16 @@ The public profile lives in [about.md](./about.md) and renders at `/`.
 The homepage shows the site name in the hero rather than repeating it in the header.
 `/about_me/` redirects to the homepage. The paginated post archive starts at
 [`/blog/`](./blog/index.html); individual post URLs are unchanged.
+The [platform modernisation case study](./work/platform-modernisation.md) is
+linked from the homepage rather than listed in the main navigation.
 Keep the profile bio, metadata and
 [profile structured data](./_includes/profile-schema.html) in sync when the role changes.
 
 When replacing the portrait, use the same square crop at 220 × 220 px and
 440 × 440 px for the `image` and `image_2x` entries in [about.md](./about.md).
+Also regenerate the 160 px and 320 px WebP versions used by the homepage.
+
+The [SVG favicon](./assets/favicon.svg) is the source for the [ICO fallback](./assets/favicon.ico).
 
 Run `JEKYLL_ENV=production bundle exec jekyll build` to check the generated
 profile, sitemap and robots file locally. After deploying, submit

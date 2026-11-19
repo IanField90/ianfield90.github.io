@@ -17,7 +17,7 @@
 
       <div class="trigger">
         {% for nav_page in site.pages %}
-          {% if nav_page.title %}
+          {% if nav_page.title and nav_page.nav != false %}
             {% unless nav_page.url contains '/blog/page/' %}
               <a class="page-link" href="{{ nav_page.url | remove: 'index.html' | relative_url }}">{{ nav_page.title | downcase }}</a>
             {% endunless %}

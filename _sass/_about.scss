@@ -36,6 +36,10 @@
     .about-label {
         color: #a7efde;
     }
+
+    picture {
+        display: block;
+    }
 }
 
 .about-label {
@@ -140,7 +144,7 @@
         grid-template-columns: 1fr;
     }
 
-    .about-portrait {
+    .about-hero picture {
         width: 5rem;
         grid-row: 1;
     }
