@@ -4,6 +4,10 @@ layout: default
 
 <div class="home">
 
+  {% if paginator.page == 1 %}
+  <p>I&rsquo;m Ian Field, a Full-Stack Engineering Team Lead. <a href="{{ '/about_me/' | relative_url }}"><u>Read about my work and tech stack</u></a>.</p>
+  {% endif %}
+
   <ul class="post-list">
     {% for post in paginator.posts %}
     <li>

@@ -4,20 +4,36 @@
   <meta name="theme-color" content="#e2f3f2">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ site.title | append: " - " | append: page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %} - Software Developer: Android, Ruby on Rails">
+  {% assign fallback_title = site.title %}
+  {% if page.title %}
+    {% assign fallback_title = page.title | append: " | " | append: site.title %}
+  {% endif %}
+  {% assign seo_title = page.seo_title | default: fallback_title %}
+  {% assign seo_description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 %}
+  {% assign canonical_url = page.url | remove: 'index.html' | absolute_url %}
 
-  <meta name="keywords" content="Android,Rails,Ruby,Developer,Ian,Field,Software,Engineer">
-  <meta name="distribution" content="global">
-  <meta name="author" content="Ian Field">
+  <title>{{ seo_title | escape }}</title>
+  <meta name="description" content="{{ seo_description | escape }}">
+  <meta name="author" content="{{ site.title | escape }}">
 
   <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:800,300" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ canonical_url | escape }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="shortcut icon" type="image/png" href="/assets/favicon.ico">
   <link rel="icon" sizes="32x32" href="/assets/favicon.ico">
   <link rel="manifest" href="/manifest.webmanifest">
 
-</script>
+  {% if page.profile %}
+    {% assign profile_image = page.image | absolute_url %}
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ seo_title | escape }}">
+    <meta property="og:description" content="{{ seo_description | escape }}">
+    <meta property="og:url" content="{{ canonical_url | escape }}">
+    <meta property="og:image" content="{{ profile_image | escape }}">
+    <meta property="og:image:alt" content="{{ page.image_alt | escape }}">
+    <meta name="twitter:card" content="summary">
+    {% include profile-schema.html %}
+  {% endif %}
 </head>

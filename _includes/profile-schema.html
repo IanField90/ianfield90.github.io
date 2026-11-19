@@ -1,0 +1,21 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": {{ canonical_url | jsonify }},
+  "name": {{ seo_title | jsonify }},
+  "description": {{ seo_description | jsonify }},
+  "mainEntity": {
+    "@type": "Person",
+    "@id": {{ canonical_url | append: "#ian-field" | jsonify }},
+    "name": {{ site.title | jsonify }},
+    "url": {{ canonical_url | jsonify }},
+    "image": {{ profile_image | jsonify }},
+    "jobTitle": "Full-Stack Engineering Team Lead",
+    "sameAs": [
+      {{ site.github_username | prepend: "https://github.com/" | jsonify }},
+      {{ site.linkedin_username | prepend: "https://www.linkedin.com/in/" | append: "/" | jsonify }}
+    ]
+  }
+}
+</script>

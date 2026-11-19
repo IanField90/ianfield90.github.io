@@ -14,6 +14,17 @@ Run the server with auto building `jekyll build --watch`
 
 Run the server with drafts: `jekyll serve -D`
 
+## Profile and search
+
+The public profile lives in [about.md](./about.md) at `/about_me/`. Keep its
+bio, metadata and [profile structured data](./_includes/profile-schema.html)
+in sync when the role changes.
+
+Run `JEKYLL_ENV=production bundle exec jekyll build` to check the generated
+profile, sitemap and robots file locally. After deploying, submit
+`https://ianfield.com/sitemap.xml` in Google Search Console and inspect
+`https://ianfield.com/about_me/` to request indexing.
+
 # Example post
 
 ---
