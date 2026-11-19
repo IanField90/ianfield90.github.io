@@ -16,16 +16,25 @@ Run the server with drafts: `jekyll serve -D`
 
 ## Profile and search
 
-The public profile lives in [about.md](./about.md) at `/about_me/`. Keep its
-bio, metadata and [profile structured data](./_includes/profile-schema.html)
-in sync when the role changes.
+The public profile lives in [about.md](./about.md) and renders at `/`.
+The homepage shows the site name in the hero rather than repeating it in the header.
+`/about_me/` redirects to the homepage. The paginated post archive starts at
+[`/blog/`](./blog/index.html); individual post URLs are unchanged.
+Keep the profile bio, metadata and
+[profile structured data](./_includes/profile-schema.html) in sync when the role changes.
+
+When replacing the portrait, use the same square crop at 220 × 220 px and
+440 × 440 px for the `image` and `image_2x` entries in [about.md](./about.md).
 
 Run `JEKYLL_ENV=production bundle exec jekyll build` to check the generated
 profile, sitemap and robots file locally. After deploying, submit
 `https://ianfield.com/sitemap.xml` in Google Search Console and inspect
-`https://ianfield.com/about_me/` to request indexing.
+`https://ianfield.com/` to request indexing.
 
 # Example post
+
+The layout supplies the page title (`h1`), so start post and page sections at
+`##`. The shared heading styles live in [`_sass/_base.scss`](./_sass/_base.scss).
 
 ---
 

@@ -2,7 +2,9 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% unless page.url == '/' %}
+      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% endunless %}
 
     <nav role="navigation" aria-label="Main" class="site-nav">
       <a href="#" class="menu-icon" aria-label="Menu">
@@ -14,9 +16,11 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | downcase }}</a>
+        {% for nav_page in site.pages %}
+          {% if nav_page.title %}
+            {% unless nav_page.url contains '/blog/page/' %}
+              <a class="page-link" href="{{ nav_page.url | remove: 'index.html' | relative_url }}">{{ nav_page.title | downcase }}</a>
+            {% endunless %}
           {% endif %}
         {% endfor %}
       </div>

@@ -38,7 +38,7 @@ permalink: /travel/
   {% if post.categories contains 'Travel' %}
   <div>
     <a href="{{ post.url }}">
-      <h1>{{ post.title }}</h1>
+      <h3 class="post-title">{{ post.title }}</h3>
       <p class="date">
         {{ post.date | date: "%b %-d, %Y" }}
       </p>

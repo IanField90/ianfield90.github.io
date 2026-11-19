@@ -13,7 +13,7 @@ There are a lot of useful articles out there for improving your quality of life 
 
 First of all is IDE setup itself. [Configuring Android Studio](https://medium.com/google-developer-experts/configuring-android-studio-4aa4f54f1153#.b69yd93gw) lists some nice quality of life improvements to help speed up and automate some areas of your every day development flow. I've even coloured my Logcat output to match. I find it makes those crash logs a little nicer on the eye, and that always helps.
 
-# Build time improvements
+## Build time improvements
 
 At the sacrifice of linting you can improve your build times by setting it to the latest version of android you're supporting, each have their own type of improvements. I've not used this much yet, but I found the idea quite cool. *Edit: This is actually for Multidex builds*
 
@@ -35,7 +35,7 @@ Keep your Gradle wrapper up to date if possible. At the time of writing this mea
 
 As soon as it's okay for you to use I highly recommend trying out instant run in Android Studio. Essentially similar to [JRebel](https://zeroturnaround.com/software/jrebel-for-android/) but free.
 
-# Testing improvements
+## Testing improvements
 
 You can direct the outputs of your unit tests for quick access. To do this within your `android` hash add:
 
@@ -49,7 +49,7 @@ testOptions.unitTests.all {
 }
 {% endhighlight %}
 
-# Handy libraries
+## Handy libraries
 
 Here are a few of my favourite libraries for time saving.
 
@@ -73,6 +73,6 @@ Here are a few of my favourite libraries for time saving.
 
 - [Codepath](https://guides.codepath.com/android/Must-Have-Libraries) - Has a very long list of other libraries.
 
-# Video
+## Video
 
 A decent amount of tips for Android Studio are available in the [Android Studio for Experts (Android Dev Summit 2015)](https://www.youtube.com/watch?v=Y2GC6P5hPeA) video

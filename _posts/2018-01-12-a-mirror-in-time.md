@@ -9,7 +9,7 @@ tags:
 - Mindfulness
 - Depression
 ---
-# Learning to appreciate
+## Learning to appreciate
 
 A recent article I read, 100 Blocks a Day, had me thinking a little about the value of time and how I spent it, whether the ways I spent it bought me happiness. As my spare time has reduced quite drastically in the past year and a half I took stock. Some things were clearly beneficial and fun. Others things I felt rather hung up on. I didn’t want to react negatively, but trying different things out felt like a good thing. A few little changes felt like they could make a big difference.
 

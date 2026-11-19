@@ -185,10 +185,6 @@
     flex: 1;
 }
 
-.page-heading {
-    font-size: 20px;
-}
-
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -211,36 +207,14 @@
 /**
  * Posts
  */
-.post-header {
-
-}
-
 .post-title {
-    font-size: 42px;
-    line-height: 58px;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    color: $brand-color;
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+    margin-bottom: .35rem;
 }
 
 .post-subtitle {
-  font-size: 24px;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  color: lighten($brand-color, 25%);
-  margin-bottom: 0px !important;
-
-  @include media-query($on-laptop) {
-      font-size: 22px;
-  }
-}
-
-.post-list h1 {
-  letter-spacing: 1px;
-  word-spacing: 3px;
+    color: $brand-color;
+    font: 400 1.15rem/1.4 system-ui, sans-serif;
+    margin-bottom: .35rem;
 }
 
 .post-content {
@@ -250,42 +224,6 @@
       text-decoration: underline;
     }
 
-    h1 {
-        font-size: 26px;
-        @include media-query($on-laptop) {
-            font-size: 24px;
-        }
-        color: $grey-color
-    }
-
-    h2 {
-        font-size: 24px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h3 {
-        font-size: 20px;
-        color: darken($accent-color, 5%);
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-}
-
-h1 {
-  margin-bottom: 0px
 }
 
 div#map {
