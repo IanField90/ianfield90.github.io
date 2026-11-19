@@ -14,17 +14,6 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #585E60;
-$accent-color:     #3D9993;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$highlight-color:  #37474f;
-
 // Width of the content area
 $content-width:    800px;
 
@@ -50,6 +39,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "theme",
         "base",
         "layout",
         "syntax-highlighting",

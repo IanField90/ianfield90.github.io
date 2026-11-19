@@ -14,6 +14,15 @@ Run the server with auto building `jekyll build --watch`
 
 Run the server with drafts: `jekyll serve -D`
 
+## Appearance
+
+The site follows the visitor's system colour scheme by default. The sun/moon
+icon in the header shows the active colour scheme. Select it to choose
+**Light** or **Dark** and save the override in the browser. **System** clears
+the override. Without JavaScript, the site still follows the system setting.
+
+The light and dark colour palettes live in [`_sass/_theme.scss`](./_sass/_theme.scss).
+
 ## Profile and search
 
 The public profile lives in [about.md](./about.md) and renders at `/`.

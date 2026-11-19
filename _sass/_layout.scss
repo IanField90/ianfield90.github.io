@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid lighten($accent-color, 20%);
+    border-bottom: 1px solid var(--accent-line);
     min-height: 56px;
     margin-top: 56px;
 
@@ -10,21 +10,92 @@
     position: relative;
 }
 
+.header-controls {
+    display: flex;
+    align-items: center;
+    min-height: 56px;
+    gap: 1rem;
+
+    @include media-query($on-palm) {
+        gap: .5rem;
+        padding-right: 60px;
+    }
+}
+
+.theme-control {
+    position: relative;
+    flex: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--accent-text);
+
+    &:not([hidden]) {
+        display: grid;
+        place-items: center;
+    }
+
+    &:hover {
+        background-color: var(--link-hover-fill);
+    }
+
+    &:focus-within {
+        outline: 2px solid currentColor;
+        outline-offset: 2px;
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.75;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .theme-sun {
+        display: var(--theme-sun);
+    }
+
+    .theme-moon {
+        display: var(--theme-moon);
+    }
+
+    // Keep the native picker and keyboard controls over the visible icon.
+    select {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    @include media-query($on-palm) {
+        margin-left: auto;
+    }
+}
+
 .site-title {
     font-size: 32px;
     line-height: 56px;
     letter-spacing: 2px;
     margin-bottom: 0;
-    float: left;
-
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: var(--heading);
+    }
+
+    @include media-query($on-palm) {
+        font-size: clamp(1.05rem, 5vw, 2rem);
+        line-height: 1.2;
+        letter-spacing: 1px;
     }
 }
 
 .site-nav {
-    float: right;
+    margin-left: auto;
     line-height: 56px;
     letter-spacing: 1px;
 
@@ -33,11 +104,11 @@
     }
 
     .page-link {
-        color: $brand-color;
+        color: var(--link);
         line-height: $base-line-height;
 
         &:hover {
-          color: darken($brand-color, 60%)
+          color: var(--text);
         }
 
         // Gaps between nav items, but not on the last one
@@ -50,8 +121,9 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        z-index: 1;
+        background-color: var(--page);
+        border: 1px solid var(--line);
         border-radius: 5px;
         text-align: right;
 
@@ -69,7 +141,7 @@
                 height: 15px;
 
                 path {
-                    fill: $accent-color;
+                    fill: var(--accent-text);
                 }
             }
         }
@@ -79,7 +151,8 @@
             display: none;
         }
 
-        &:hover .trigger {
+        &:hover .trigger,
+        &:focus-within .trigger {
             display: block;
             padding-bottom: 5px;
         }
@@ -102,9 +175,9 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid lighten($accent-color, 20%);
+    border-top: 1px solid var(--accent-line);
     padding: $spacing-unit 0;
-    background-color: lighten($accent-color, 55%);//darken($background-color, 5%);
+    background-color: var(--footer);
 }
 
 .footer-heading {
@@ -125,7 +198,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: var(--muted);
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -193,7 +266,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: var(--muted);
     margin: 10px 0;
 }
 
@@ -212,7 +285,7 @@
 }
 
 .post-subtitle {
-    color: $brand-color;
+    color: var(--link);
     font: 400 1.15rem/1.4 system-ui, sans-serif;
     margin-bottom: .35rem;
 }
