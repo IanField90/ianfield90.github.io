@@ -2,7 +2,7 @@
 layout: default
 title: About Me
 seo_title: Ian Field | Full-Stack Engineering Team Lead
-description: Ian Field is a full-stack engineering team lead working in cybersecurity, with experience in backend architecture and agentic development with Claude.
+description: Ian Field is a full-stack engineering team lead working in cybersecurity, with experience in backend architecture and agentic workflows.
 permalink: /
 redirect_from: /about_me/
 image: /assets/ian-portrait.jpg
@@ -51,9 +51,9 @@ profile: true
 
   <section class="about-section" aria-labelledby="agentic-development">
     <p class="about-label">How I work</p>
-    <h2 id="agentic-development">Agentic development with Claude</h2>
-    <p>I build agentic workflows with Claude for work that&rsquo;s too large for a single session. I split the work into focused tasks, save findings so later runs can pick up without repeating work, and use scripts for checks that don&rsquo;t need an AI model. That makes the work easier to resume and the conclusions easier to verify.</p>
-    <p>For engineering decisions, I use Claude to explore unfamiliar code, compare designs and get a prototype in front of the team sooner. We can test assumptions in code before committing to a design. I make the final technical decisions and verify the changes before they ship.</p>
+    <h2 id="agentic-development">Agentic workflows</h2>
+    <p>I use agentic workflows to accelerate development for work that&rsquo;s too large for a single session. I split the work into focused tasks, save findings so later runs can pick up without repeating work, and use scripts for checks that don&rsquo;t need an AI model. That makes the work easier to resume and the conclusions easier to verify.</p>
+    <p>For engineering decisions, I use AI to explore unfamiliar code, compare designs and get a prototype in front of the team sooner. We can test assumptions in code before committing to a design. I make the final technical decisions and verify the changes before they ship.</p>
   </section>
 
   <section class="about-section about-stack" aria-labelledby="tech-stack">
